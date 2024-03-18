@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KCEF</title>
+
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="./css/common.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+</head>
+<body>
+    <!-- 헤더 -->
+    <header id="main_header">
+        <!-- 헤더메뉴 -->
+        <nav class="header_menu">
+            <div class="logo">
+                <a href="#"><img src="./images/logo_White.png" class="logo_image" alt="로고 이미지를 누르면 홈페이지 메인으로 돌아갑니다."></a>
+            </div>
+            <ul class="gnb_menu">
+                <li><a href="#">회사소개</a>
+                    <div class="lnb_menu">
+                        <ul class="drodown">
+                            <li><a href="#">KCEF</a></li>
+                            <li><a href="#">비전&연혁</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">사업분야</a>
+                    <div class="lnb_menu">
+                        <ul class="drodown">
+                            <li><a href="#">친환경 제품</a></li>
+                            <li><a href="#">적용사례</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">서 비 스</a>
+                    <div class="lnb_menu">
+                        <ul class="drodown">
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+        <div id="lnb_bg"></div>
+
+        <!-- 첫번째 swiper -->
+        <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true"
+    centered-slides="true" autoplay-delay="3000" autoplay-disable-on-interaction="false">
+            <swiper-slide class="wrap_slide">
+                <div class="main_wrap">
+                    <div class="bg_img">
+                        <img src="./images/header_slide1.png" class="pc_ver" alt="CES-1 친환경 복합 미생물">
+                        <img src="./images/responsive/Mheader_slide1.png" class="mobile_ver" alt="CES-1 친환경 복합 미생물">
+                    </div>
+                    <div class="header_title">
+                        <h1>자연에서</h1>
+                        <h1>답을 찾습니다.</h1>
+                        <h5>CES-1 친환경 복합 미생물을 이용한 하.폐수 슬러지 저감 처리시스템</h5>
+                    </div>
+                </div>
+            </swiper-slide>
+
+            <swiper-slide class="wrap_slide">
+                <div class="main_wrap">
+                    <div class="bg_img">
+                        <img src="./images/header_slide1.png" class="pc_ver" alt="천연 효소 탈취제">
+                        <img src="./images/responsive/Mheader_slide1.png" class="mobile_ver" alt="천연 효소 탈취제">
+                    </div>
+                    <div class="header_title">
+                        <h1>방부제, 화학성분이 없는</h1>
+                        <h1>천연 발효 효소로 안심</h1>
+                        <h5>일상생활에서도 간편하게 사용 가능한 천연 효소 탈취제</h5>
+                    </div>
+                </div>
+            </swiper-slide>
+        </swiper-container>
+    </header>
+    
+    <!-- 모바일 메뉴 -->
+
+
+    <!-- 메 인 -->
+    <!-- 기술 분야 -->
+    <section id="main_container">
+        <article class="technical_field">
+            <div class="container_title">
+                <h1>기술 분야</h1>
+                <p>CES(Complex Enzyme Solution)</p>
+            </div>
+            <div class="field_area">
+                <div class="field_card">
+                    <div class="field_text">
+                        <h3>배양방식</h3>
+                        <p>자연계의 토양 미생물들을 <br />
+                            전통 자연 발효 배양하여 <br />
+                            다양한 환경에서 활성화되어 <br />
+                            환경 적응력이 강함</p>
+                    </div>
+                </div>
+                <div class="field_card">
+                    <div class="field_text">
+                        <h3>특  성</h3>
+                        <p>절반이상의 CES는 성장을 위해 <br />
+                            산소를 요하지 않음 <br /><br />
+                            유산소 조건에서는 
+                            휴면하는 <br />
+                            편성혐기성균, 통성호기성균 혼합</p>
+                    </div>
+                </div>
+                <div class="field_card">
+                    <div class="field_text">
+                        <h3>기  능</h3>
+                        <p>호기적탈질균, 단백질 분해 및 <br />
+                            Cr (III) 환원, 유기물 분해, <br />
+                            황화수소 이용 악취 제거</p>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <article class="product_field">
+            <div class="container_title">
+                <h1>주요 제품</h1>
+                <p>MAIN PRODUCTS</p>
+            </div>
+
+            <!-- 두번째 swiper -->
+            <swiper-container class="mySwiper2" slides-per-view="3" space-between="20" centered-slides="true"
+        autoplay-delay="3000" loop="true">
+                <swiper-slide class="wrap_slide2">
+                    <div class="main_wrap">
+                        <div class="bg_img">
+                            <img src="./images/product/1_thumbs.jpg" class="thumb_1" alt="수영장용">
+                        </div>
+                        <div class="product_title">
+                            <h1>수영장용</h1>
+                        </div>
+                    </div>
+                </swiper-slide>
+    
+                <swiper-slide class="wrap_slide2">
+                    <div class="main_wrap">
+                        <div class="bg_img">
+                            <img src="./images/product/2_thumbs.jpg" class="thumb_2" alt="쎄스팜비료">
+                        </div>
+                        <div class="product_title">
+                            <h1>쎄스팜비료</h1>
+                        </div>
+                    </div>
+                </swiper-slide>
+
+                <swiper-slide class="wrap_slide2">
+                    <div class="main_wrap">
+                        <div class="bg_img">
+                            <img src="./images/product/3_thumbs.jpg" class="thumb_3" alt="악취용">
+                        </div>
+                        <div class="product_title">
+                            <h1>악취용</h1>
+                        </div>
+                    </div>
+                </swiper-slide>
+
+                <swiper-slide class="wrap_slide2">
+                    <div class="main_wrap">
+                        <div class="bg_img">
+                            <img src="./images/product/4_thumbs.jpg" class="thumb_4" alt="양식장용">
+                        </div>
+                        <div class="product_title">
+                            <h1>양식장용</h1>
+                        </div>
+                    </div>
+                </swiper-slide>
+
+                <swiper-slide class="wrap_slide2">
+                    <div class="main_wrap">
+                        <div class="bg_img">
+                            <img src="./images/product/5_thumbs.jpg" class="thumb_5" alt="축산용">
+                        </div>
+                        <div class="product_title">
+                            <h1>축산용</h1>
+                        </div>
+                    </div>
+                </swiper-slide>
+
+                <swiper-slide class="wrap_slide2">
+                    <div class="main_wrap">
+                        <div class="bg_img">
+                            <img src="./images/product/6_thumbs.jpg" class="thumb_6" alt="폐수용">
+                        </div>
+                        <div class="product_title">
+                            <h1>폐수용</h1>
+                        </div>
+                    </div>
+                </swiper-slide>
+            </swiper-container>
+
+        </article>
+
+    </section>
+
+
+
+    <!-- 푸터 -->
+    <footer id="main_footer">
+        <div class="footer_line"></div>
+
+        <div class="footer_lnb">
+            <ul class="info">
+                <li><span>상호명  KCEF</span></li>
+                <li><span>사업자등록번호  000-00-00000 <a href="#">[사업자정보확인]</a></span></li>
+                <li><span>통신판매업신고번호  </span></li>
+            </ul>
+            <ul class="adress">
+                <li><span>사업장주소  </span></li>
+                <li><span>대표번호  000-123-1234</span></li>
+                <li><span>메일주소  </span></li>
+            </ul>
+            <ul class="info_time">
+                <li><span>운영시간  평일 09:00 ~ 18:00 (주말, 공휴일 휴무)</span></li>
+            </ul>
+            <ul class="info_alrt">
+                <li><span>본 사이트의 모든 콘텐츠는 저작권법의 보호를 받는 바, 무단 전재, 복사, 배포 등을 금합니다.</span></li>
+            </ul>
+            <ul class="copyright">
+                <li><span>© KCEF, Inc. All rights reserved.</span></li>
+            </ul>
+            
+
+        </div>
+
+    </footer>
+
+
+    <script src="./js/jquery-2.2.4.min.js"></script>
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <script src="./js/swiper-element-bundle.min.js"></script>
+
+    <script src="./js/common.js"></script>
+    <script src="./js/main.js"></script>
+
+</body>
+</html>

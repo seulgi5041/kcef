@@ -1,0 +1,176 @@
+/* 첫번째 swiper CSS */
+swiper-container.mySwiper {
+    width: 100%;
+    height: 940px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;    
+}
+
+swiper-slide.wrap_slide {
+    font-size: 18px;
+    background: #1C417A;
+    display: flex;
+    align-items: flex-end;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+swiper-slide.wrap_slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.main_wrap > .header_title {
+    color: #fff;
+    margin-bottom: 240px;
+    margin-left: 270px;
+    
+}
+
+.main_wrap > .header_title h1 {
+    font-size: 4.3rem;
+    letter-spacing: 1.6px;
+}
+
+.main_wrap > .header_title h5 {
+    font-size: 1.8rem;
+    margin-top: 20px;
+    margin-left: 16px;
+}
+
+
+/* Main Container */
+/* 기술분야 */
+#main_container {
+    margin-bottom: 125px;
+}
+
+.technical_field {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* 타이틀 */
+.container_title {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.container_title h1 {
+    font-size: 2.8rem;
+    font-weight: 900;
+    color: #1C417A;
+    margin-bottom: 10px;
+}
+
+.container_title p {
+    font-size: 2.5rem;
+    color: #333333;
+    font-weight: 900;
+
+    margin-bottom: 100px;
+}
+
+/* 기술 분야 설명 */
+.technical_field .field_area {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.technical_field .field_area .field_card {
+    width: 360px;
+    height: 430px;
+    background-color: #1C417A;
+
+    margin-bottom: 180px;
+}
+
+.technical_field .field_area .field_card .field_text {
+
+    color: #fff;
+    margin: 60px 0;
+}
+
+.technical_field .field_area .field_card .field_text h3 {
+    margin-bottom: 35px;
+    text-align: center;
+
+    font-size: 2.3rem;
+    font-weight: 800;
+}
+
+.technical_field .field_area .field_card .field_text p {
+    margin-bottom: 35px;
+
+    font-size: 1.8rem;
+    font-weight: 600;
+    padding: 10px 50px;
+    line-height: 36px;
+}
+
+
+/* 메인 제품 */
+.product_field {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/* 두번째 swiper CSS */
+swiper-container.mySwiper2 {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    z-index: -1;
+}
+
+swiper-slide.wrap_slide2 .bg_img {
+    width: 450px;
+    height: 450px;
+}
+
+swiper-slide.wrap_slide2 img {
+    display: block;
+    width: 400px;
+    height: 400px;
+    /* object-fit: cover; */
+    border-radius: 100%;
+}
+
+/* overlay */
+.main_wrap {
+    position: relative;
+}
+
+.bg_img img {
+    width: 100%;
+    display: block;
+    /* 필요에 따라 height를 설정하여 이미지 비율 조정 */
+}
+
+.product_title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* 불투명한 검은색 배경 */
+    color: white; /* 텍스트 색상 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* 기본적으로 숨김 */
+    transition: opacity 0.5s; /* 부드러운 효과 */
+}
+
+.main_wrap:hover .product_title {
+    opacity: 1; /* 마우스 오버시 보임 */
+}
+

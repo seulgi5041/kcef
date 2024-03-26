@@ -76,9 +76,11 @@ ul { list-style: none; }
 
 /* 하위메뉴배경 */
 #lnb_bg {
+    background: #fff;
     width: 100%;
     height: 180px;
-    top: 90px;
+    position: absolute;
+    top: 105px;
     display: none;
 }
 
@@ -89,7 +91,7 @@ ul { list-style: none; }
 /* 하위메뉴 */
 .lnb_menu {
     position: absolute;
-    top: 80px;
+    top: 90px;
     height: auto;
     width: 95%;
     display: none;
